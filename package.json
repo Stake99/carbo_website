@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "carbo_website",
   "version": "1.0.0",
   "description": "website ya rona ya carbo",
@@ -11,5 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
+=======
+  "devDependencies": {
+    "sass": "^1.75.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "autoprefixer": "^10.4.19",
+    "bootstrap": "^5.3.3"
+>>>>>>> main
   }
 }
