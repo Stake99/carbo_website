@@ -141,16 +141,10 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="#0">Pages</a>
+                  <a href="#0">Categories</a>
                   <ul class="sub-menu">
                       <li>
-                          <a href="case.html">Case Study 01</a>
-                      </li>
-                      <li>
-                          <a href="case-2.html">Case Study 02</a>
-                      </li>
-                      <li>
-                          <a href="case-details.html">Case Study Details</a>
+                          <a href="case-2.html">Case Study</a>
                       </li>
                       <li>
                           <a href="team.html">Our Team</a>
@@ -170,7 +164,15 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="index.html">Blog</a>
+                  <a href="#0">Blog</a>
+                  <ul class="sub-menu">
+                    <li>
+                        <a href="blog.html">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="blog-details.html">Blog Details</a>
+                    </li>
+                </ul>
                 </li>
                 <li><a href="contact.html">Contact</a></li>
                 <li class="ml-20 d-none d-lg-block">
@@ -437,72 +439,16 @@
             <div class="col-lg-6">
               <div class="contact__right-item">
                 <div class="section-header mb-20">
-                  <h5
-                    class="wow fadeInUp pb-2"
-                    data-wow-delay="00ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <img
-                      class="me-1"
-                      src="assets/images/icon/section-title.png"
-                      alt="icon"
-                    />
-                    GET IN TOUCH
-                  </h5>
-                  <h2
-                    class="wow fadeInUp"
-                    data-wow-delay="200ms"
-                    data-wow-duration="1500ms"
-                  >
-                    Ready to Get Started?
-                  </h2>
-                  <p
-                    class="wow fadeInUp mt-3"
-                    data-wow-delay="400ms"
-                    data-wow-duration="1500ms"
-                  >
-                    Please fill your infomation below and and you will be
-                    contacted shortly,
-                  </p>
-                </div>
-                <div class="contact__form">
-                  <form action="https://script.google.com/macros/s/AKfycbynN5s2rejjH6qF1TfgBq9ll72QLQPWYTTfWznvnLHIAEF0oEvVML0O2DnzERTFupuCmA/exec" 
-                    method="post"
-                    name="contact-form">
-                    <div class="row">
-                      <div class="col-6">
-                        <label for="name">Your Name*</label>
-                        <input
-                          name="name"
-                          class="bg-transparent bor"
-                          type="text"
-                          placeholder="Your Name"
-                        />
-                      </div>
-                      <div class="col-6">
-                        <label for="email">Your Email*</label>
-                        <input
-                          class="bg-transparent bor"
-                          name="email"
-                          type="email"
-                          placeholder="Your Email"
-                        />
-                      </div>
+                    <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget" 
+                    data-url="https://calendly.com/neosekaleli/carbo-consultation" 
+                    style="min-width:320px;height:700px;">
                     </div>
-                    <div class="text-area">
-                      <label for="massage">Write Message*</label>
-                      <textarea
-                        class="bg-transparent bor"
-                        name="massage"
-                        placeholder="Write Message"
-                      ></textarea>
-                    </div>
-                    <div class="btn-two">
-                      <span class="btn-circle"> </span>
-                      <button type="submit" class="btn-one">Send Message <i class="fa-regular fa-arrow-right-long"></i></button>
-                      </a>
-                    </div>
-                  </form>
+                    <script type="text/javascript" 
+                    src="https://assets.calendly.com/assets/external/widget.js" async>
+                    </script>
+                    <!-- Calendly inline widget end -->
+                  
                 </div>
               </div>
             </div>
@@ -759,5 +705,8 @@
     <script src="assets/js/script.js"></script>
     <!--Script form-->
     <script src ="Google Sheet.js"></script>
+    <!--Calendly form-->
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
   </body>
 </html>
